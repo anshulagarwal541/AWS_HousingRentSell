@@ -19,6 +19,7 @@ cd /home/ec2-user/app
 sudo -u ec2-user git clone https://github.com/anshulagarwal541/AWS_HousingRentSell.git project
 
 cat > /home/ec2-user/app/project/HousingRentSell/Server/.env <<'EOF'
+SECRET_KEY=<any-secret-string>
 AWS_REGION=<region>
 AWS_ACCESS_KEY_ID=<aws-access-key>
 AWS_SECRET_ACCESS_KEY=<aws-secret-key>
@@ -28,7 +29,6 @@ EOF
 
 cat > /home/ec2-user/app/project/HousingRentSell/Client/propertyRentSell/.env <<'EOF'
 VITE_MAPBOX_TOKEN=<mapbox-token>
-
 EOF
 
 cd /home/ec2-user/app/project/HousingRentSell/Server
