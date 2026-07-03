@@ -17,8 +17,6 @@ I have attached some application screen shots, though might be helpful.
 ![alt text](./assets/image-6.png)
 ![alt text](./assets/image-7.png)
 ![alt text](./assets/image-8.png)
-![alt text](./assets/image.png)
-![alt text](./assets/image-1.png)
 ![alt text](./assets/image-9.png)
 ![alt text](./assets/image-10.png)
 ![alt text](./assets/image-11.png)
